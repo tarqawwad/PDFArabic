@@ -1,0 +1,41 @@
+﻿@model List<PDFArabic.Models.StudentModel>
+@{
+    Layout = null;
+
+}
+
+<link rel="stylesheet" href="@Server.MapPath("~/Content/ReportPDF.css")" />
+<link rel="stylesheet" href="@Server.MapPath("~/fonts/font.css")" />
+@*By Tareq Awwad*@
+<div dir="rtl">
+    <div class="tbl-header">
+        <table border="0">
+            <thead>
+                <tr style="font-family: 'TareqAwwad'">
+                    <th>رقم الطالب</th>
+                    <th>الطالب</th>
+                    <th>العمر</th>
+                    <th>التخصص</th>
+                    <th>المعدل</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="tbl-content">
+        <table border="0">
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr style="font-family: 'TareqAwwad'">
+                        <td>@item.StudentNumber</td>
+                        <td>@item.StudentName</td>
+                        <td>@item.StudentAge</td>
+                        <td>@item.StudentDepartment</td>
+                        <td>@item.StudentAVG</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@*By Tareq Awwad*@
