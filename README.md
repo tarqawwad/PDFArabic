@@ -9,8 +9,20 @@ Export PDF with Language Arabic by Rotativa plugin
 
 # Rotativa Options 
 
-- (string) componentName : name is applied on gregorian date ( when get value for component name , return gregorian date ). 
-
+- PageMargins : Margins(int top, int right, int bottom, int left) . 
+- PageOrientation : LandScape 0 , Portrait 1 .
+- PageSize :
+ A0 = 0,A1 = 1,A2 = 2,A3 = 3,A4 = 4,A5 = 5,A6 = 6,A7 = 7,A8 = 8,A9 = 9,
+ B0 = 10,B1 = 11,B2 = 12,B3 = 13,B4 = 14,B5 = 15,B6 = 16,B7 = 17,B8 = 18,B9 = 19,B10 = 20,
+ C5E = 21,Comm10E = 22,Dle = 23,Executive = 24,Folio = 25,Ledger = 26,Legal = 27,Letter = 28,Tabloid = 29
+- PageWidth (double) .
+- PageHeight (double) .
+- IsLowQuality (bool) 
+- IsJavaScriptDisabled (bool) 
+- MinimumFontSize(int)
+- CustomHeaders ( Dictionary<string, string> )
+- CustomSwitches (string)
+- SaveOnServerPath (string)
 
 # How to use 
 
