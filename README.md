@@ -33,4 +33,7 @@ Export PDF with Language Arabic by Rotativa plugin
 - Create Action Result in Controller for Download and set options .
 
 # ScreenShot PDF Arabic
+![Screenshot_1](https://user-images.githubusercontent.com/63288936/152765211-e17254fa-76c8-47d3-86e8-7630234bc2a6.png)
+![Screenshot_2](https://user-images.githubusercontent.com/63288936/152765218-a40ebd7d-3818-4fee-9374-b3cc17009c52.png)
+
 
